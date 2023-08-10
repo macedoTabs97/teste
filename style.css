@@ -1,0 +1,45 @@
+/* #ids, .classes, tags */
+
+body{
+    background: linear-gradient(90deg, #00dbde 0%, #9d0d9f 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fafafa;
+    box-shadow: 2px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+ }
+ .header{
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 20px
+ }
+ .form{
+    padding: 20px
+ }
+ .form-control{
+    margin-bottom: 10px;
+    padding: 20px;
+ }
+.form-control label{
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 16pt;
+}
+.form-control input{
+    border: 3px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
